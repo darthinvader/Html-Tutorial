@@ -1,0 +1,24 @@
+/* Direct Child  */
+
+div > p {
+  background: #ddd;
+}
+
+/* Directly after */
+
+div + p{
+  background: #333;
+  color:white;
+}
+
+/* By attribute */
+a[target='_blank'] {
+  background: #ff0000;
+  color:white;
+}
+
+/* Specific Attribute Values */
+ input[type='text'], input[type='email'] {
+   width:100%;
+   margin-bottom:5px;
+ }

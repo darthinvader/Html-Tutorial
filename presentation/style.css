@@ -3,7 +3,7 @@
   --page-2-color: tan;
   --page-3-color: teal;
   --page-4-color: slateblue;
-  --animate-speed: 1s;
+  --animate-speed: 2s;
 }
 
 
@@ -74,4 +74,29 @@ body {
   color:#333;
 }
 
+/* Page Animation */
+#page-1 h1 {
+  transform: translateY(-1200px);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
 
+/* Keyframe */
+@keyframes heading {
+  to {
+    transform: translateY(0);
+  }
+}
+
+#page-1 p {
+  transform: translateX(-2000px);
+  animation: paragraph var(--animate-speed) forwards ease-in;
+}
+
+
+
+/* Keyframe */
+@keyframes paragraph {
+  to {
+    transform: translateX(0);
+  }
+}

@@ -1,8 +1,42 @@
-body {
-  background: blue;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.hello {
-  background: red;
+body {
+  background: #f4f4f4;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
-/*# sourceMappingURL=main.css.map */
+
+header {
+  background: #333;
+  color: #f4f4f4;
+  padding: 1rem;
+}
+header h1 {
+  text-align: center;
+}
+
+.section {
+  padding: 3rem;
+}
+.section h3 {
+  font-size: 2rem;
+}
+.section-a {
+  background: steelblue;
+  color: white;
+}
+.section-b {
+  background: skyblue;
+  color: white;
+}
+
+a {
+  color: #333;
+}
+a:hover {
+  color: coral;
+}/*# sourceMappingURL=main.css.map */

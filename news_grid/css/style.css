@@ -50,6 +50,10 @@ h6 {
 
 /* Utility */
 
+p {
+  margin: 0.5rem;
+}
+
 .container {
   max-width: var(--max-width);
   margin: auto;
@@ -137,11 +141,11 @@ h6 {
   color: white;
 }
 
-py-1 {
+.py-1 {
   padding: 1.5rem 0;
 }
 
-py-2 {
+.py-2 {
   padding: 2rem 0;
 }
 
@@ -149,16 +153,26 @@ py-3 {
   padding: 3rem 0;
 }
 
-p-1 {
+.p-1 {
   padding: 1.5rem;
 }
 
-p-2 {
+.p-2 {
   padding: 2rem;
 }
 
-p-3 {
+.p-3 {
   padding: 3rem;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
+
+.list li > a:hover {
+  color: var(--primary-color) !important;
 }
 
 /* Navigation */
@@ -260,4 +274,42 @@ p-3 {
   grid-gap: 1rem;
   align-items: center;
   grid-column: span 2;
+}
+
+/* Footer */
+#main-footer {
+  background: var(--dark-color);
+  color: white;
+}
+
+#main-footer img {
+  width: 150px;
+}
+
+#main-footer a {
+  color: white;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container > *:last-child {
+  text-align: center;
+  background: #444;
+  grid-column: 1 / span 4;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+#main-footer .footer-container input[type="email"] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#main-footer .footer-container input[type="submit"] {
+  width: 90%;
 }

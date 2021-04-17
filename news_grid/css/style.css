@@ -119,11 +119,11 @@ p {
   color: white;
 }
 .bg-primary {
-  background: var(--dark-color);
+  background: var(--primary-color);
   color: white;
 }
 .bg-secondary {
-  background: var(--dark-color);
+  background: var(--secondary-color);
   color: white;
 }
 
@@ -173,6 +173,19 @@ py-3 {
 
 .list li > a:hover {
   color: var(--primary-color) !important;
+}
+
+/* Inner Page Grid Container */
+
+#page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+
+#page-container > *:first-child {
+  grid-row: span 3;
 }
 
 /* Navigation */

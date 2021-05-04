@@ -64,7 +64,6 @@
 //////////////////////////////////////////////////////
 // USER NAVIGATIOn
 .user-nav {
-  background-color: greenyellow;
   align-self: stretch;
   color: black;
   display: flex;
@@ -113,4 +112,27 @@
     height: 3.75rem;
     margin-right: 1rem;
   }
+}
+
+// Side Navigation
+
+.side-nav {
+  &__item {
+  }
+  &__link {
+  }
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+//////////////////////////////////////
+// Legal Text
+
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--color-grey-light-4);
 }

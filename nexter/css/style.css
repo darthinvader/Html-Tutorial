@@ -46,4 +46,5 @@ body {
   background-color: #54483a; }
 
 .footer {
-  background-color: #101d2c; }
+  background-color: #101d2c;
+  grid-column: center-start / center-end; }

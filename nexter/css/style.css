@@ -48,4 +48,4 @@ body {
 
 .footer {
   background-color: #101d2c;
-  grid-column: center-start / center-end; }
+  grid-column: full-start / full-end; }

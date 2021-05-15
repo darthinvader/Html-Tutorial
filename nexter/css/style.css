@@ -274,3 +274,9 @@ body {
   .nav__link:active, .nav__link:hover {
     background-color: rgba(255, 255, 255, 0.05);
     transform: translateY(3px); }
+
+.copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-top: 6rem;
+  text-align: center; }

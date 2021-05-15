@@ -147,6 +147,8 @@ body {
 
 .home {
   background-color: #f9f7f6; }
+  .home__img {
+    width: 100%; }
 
 .gallery {
   background-color: #54483a;
